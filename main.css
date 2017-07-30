@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.site_header {
+  background-color: hsl(170, 22%, 92%);
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 15% 0 0 0;
+  box-sizing: border-box;
+
+}
+
+
+.site_title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  letter-spacing: .2em;
+  font-family: 'Passion One', serif;
+  padding-bottom: 1em;
+}
+
+.form_submission {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+label {
+  font-size: 1.2em;
+  padding: 0 .4em;
+}
+
+#time {
+  margin: 0 2em;
+}
+
+#time:focus {
+  background-color: #AECE2B
+}
+
+button {
+  margin: 0 1em;
+}
+
+
+
+#result {
+  font-size: 1.5em;
+  margin-top: 1em;
+  font-family: 'Noto Sans', sans-serif;
+}
